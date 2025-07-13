@@ -2,6 +2,7 @@ package com.franciscogarciagarzon.data.local.model
 
 import androidx.room.Entity
 import androidx.room.ForeignKey
+import androidx.room.Index
 import androidx.room.PrimaryKey
 import java.time.LocalDate
 
@@ -20,13 +21,14 @@ import java.time.LocalDate
             childColumns = ["subCategoryId"],
             onDelete = ForeignKey.CASCADE
         ),
-    ]
+    ],
+    indices = [Index(value = ["categoryId"]), Index(value = ["subCategoryId"])]
 )
 data class Expense(
     @PrimaryKey val id: String,
     val amount: Float,
     val date: LocalDate,
-    val categoryId: String,
-    val subCategoryId: String,
+    val categoryId: Long,
+    val subCategoryId: Long,
     val description: String,
 )

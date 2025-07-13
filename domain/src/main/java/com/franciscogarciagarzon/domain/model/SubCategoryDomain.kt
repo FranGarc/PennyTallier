@@ -1,7 +1,7 @@
 package com.franciscogarciagarzon.domain.model
 
 data class SubCategoryDomain(
-    val id: String,
+    val id: Long,
     val name: String,
-    val categoryId: String
+    val categoryId: Long
 )

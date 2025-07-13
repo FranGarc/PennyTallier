@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_list">
+        <item>Home</item>
+        <item>Utilities</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Leisure</item>
+        <item>Transport</item>
+        <item>Communication</item>
+
+
+
+    </string-array>
+    <string-array name="subcategories_home">
+        <item>Rent</item>
+        <item>Mortgage</item>
+        <item>Household Goods</item> <!-- menaje de hogar-->
+        <item>Service fee</item> <!-- cuota de comunidads-->
+        <item>Groceries</item>
+    </string-array>
+    <string-array name="subcategories_utilities">
+        <item>Electricity</item>
+        <item>Water</item>
+        <item>Gas</item> <!-- menaje de hogar-->
+    </string-array>
+    <string-array name="subcategories_shopping">
+        <item>Clothings and Shoes</item>
+        <item>Electronics</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="subcategories_health">
+        <item>Meds</item>
+        <item>Physical Therapy</item>
+        <item>Psychotherapy</item>
+        <item>Dentist</item>
+        <item>Podiatrist</item>
+    </string-array>
+    <string-array name="subcategories_leisure">
+        <item>Eating out</item>
+        <item>Cinema/Theater</item>
+        <item>Streaming Services</item>
+
+    </string-array>
+    <string-array name="subcategories_transport">
+        <item>Public Transport</item>
+        <item>Fuel</item>
+        <item>Insurance</item>
+        <item>Road Tax</item>
+        <item>Maintenance</item>
+        <item>Installment</item> <!-- letra mensual -->
+    </string-array>
+    <string-array name="subcategories_communication">
+        <item>Phone</item>
+        <item>Internet Service</item>
+    </string-array>
+</resources>
